@@ -19,7 +19,7 @@ bin/ois_camera
 bin/qmuxd
 bin/test_gemini
 bin/thermald
-bin/zchgd
+#bin/zchgd
 
 # Configuration files
 etc/agps_rm
@@ -37,7 +37,7 @@ lib/libaudcal.so
 lib/libcsd-client.so
 
 # Camera
-lib/hw/vendor-camera.msm8960.so
+lib/hw/camera.msm8960.so
 lib/libBeautyChat.so
 lib/libcameraasd.so
 lib/libcameraface.so
@@ -113,14 +113,14 @@ lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so
 lib/egl/libGLESv2_adreno200.so
 lib/egl/libGLESv2S3D_adreno200.so
-lib/egl/libplayback_adreno200.so
+#lib/egl/libplayback_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/libc2d2_a3xx.so
 lib/libc2d2_z180.so
 lib/libC2D2.so
 lib/libgsl.so
 lib/libllvm-a3xx.so
-lib/libllvm-arm.so
+#lib/libllvm-arm.so
 lib/libOpenCL.so
 lib/libOpenVG.so
 lib/libsc-a2xx.so
@@ -172,7 +172,7 @@ lib/libnetmgr.so
 lib/libqc-opt.so
 
 # Sensors
-lib/hw/sensors.default.so
+lib/hw/sensors.m7wlj.so
 lib/libimu.so
 lib/libmllite.so
 lib/libmlplatform.so
@@ -180,7 +180,7 @@ lib/libmpl.so
 lib/libmpl_jni.so
 
 # WLAN firmware
-etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd
+etc/firmware/BCM4335B0_002.001.006.0092.0098.hcd
 etc/firmware/fw_bcm4335_apsta_b0.bin
 etc/firmware/fw_bcm4335_b0.bin
 etc/firmware/fw_bcm4335_p2p_b0.bin

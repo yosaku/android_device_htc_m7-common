@@ -5,7 +5,7 @@ bin/efsks
 bin/qcks
 
 # NFC
-vendor/firmware/libpn544_fw.so
+#vendor/firmware/libpn544_fw.so
 vendor/firmware/mfg.bin
 
 # Radio

@@ -1,3 +1,5 @@
+VENDOR=htc
+DEVICE=m7wlj
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 

@@ -34,7 +34,7 @@ BOARD_KERNEL_BASE := 0x80600000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
-TARGET_KERNEL_CONFIG := cyanogenmod_m7_defconfig
+TARGET_KERNEL_CONFIG := m7wlj_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/m7
 
 # Flags
@@ -92,11 +92,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27917287424
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Custom Recovery
-ifneq ($(filter m7att m7tmo m7ul,$(TARGET_DEVICE)),)
-TARGET_RECOVERY_FSTAB := device/htc/m7-common/recovery/recovery.fstab.gsm
-else
-TARGET_RECOVERY_FSTAB := device/htc/m7-common/recovery/recovery.fstab.cdma
-endif
+TARGET_RECOVERY_FSTAB := device/htc/m7-common/recovery/recovery.fstab.m7wlj
 BOARD_CUSTOM_GRAPHICS := ../../../device/htc/m7-common/recovery/graphics.c
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_HAS_NO_SELECT_BUTTON := true
