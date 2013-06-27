@@ -33,6 +33,8 @@ on init
     mkdir /storage/emulated 0555 root root
     mkdir /storage/usbdisk 0775 system system
 
+    mkdir /storage/ext_sd 0775 system system
+
     export EXTERNAL_STORAGE /storage/emulated/legacy
     export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
     export EMULATED_STORAGE_TARGET /storage/emulated
@@ -40,8 +42,8 @@ on init
     export EXTERNAL_STORAGE /storage/sdcard0
     export EXTERNAL_STORAGE2 /storage/ext_sd
     export EXTERNAL_STORAGE3 /storage/ext_sd
-    export EXTERNAL_STORAGE4 /storage/usb
-    export EXTERNAL_STORAGE5 /storage/usb
+    export EXTERNAL_STORAGE4 /storage/usbdisk
+    export EXTERNAL_STORAGE5 /storage/usbdisk
 
     # for backwards compatibility
     symlink /storage/emulated/legacy /sdcard
