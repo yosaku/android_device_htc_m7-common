@@ -37,6 +37,12 @@ on init
     export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
     export EMULATED_STORAGE_TARGET /storage/emulated
 
+    export EXTERNAL_STORAGE /storage/sdcard0
+    export EXTERNAL_STORAGE2 /storage/ext_sd
+    export EXTERNAL_STORAGE3 /storage/ext_sd
+    export EXTERNAL_STORAGE4 /storage/usb
+    export EXTERNAL_STORAGE5 /storage/usb
+
     # for backwards compatibility
     symlink /storage/emulated/legacy /sdcard
     symlink /storage/emulated/legacy /mnt/sdcard
@@ -44,6 +50,8 @@ on init
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
     symlink /storage/usbdisk /usbdisk
     symlink /storage/usbdisk /mnt/usbdisk
+
+    symlink /storage/ext_sd /sdcard2
 
     # For Invensense MPU3050
     chmod 0664 /sys/class/gyro_sensors/gyro/mpu_lpm_flag
