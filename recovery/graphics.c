@@ -432,6 +432,6 @@ void gr_fb_blank(bool blank)
         perror("cannot open button backlight");
         return;
     }
-    write(fd, blank ? "000" : "120", 3);
+    write(fd, blank ? "000" : "000", 3);
     close(fd);
 }
