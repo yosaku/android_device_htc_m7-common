@@ -6,5 +6,5 @@
 /cache		ext4		/dev/block/mmcblk0p39
 /recovery	emmc		/dev/block/mmcblk0p37
 /sdcard		datamedia	/dev/null
-# USB OTG
-/external_sd	vfat		/dev/block/sda1
+# External SD
+/external_sd	auto		/dev/block/mmcblk1p1
