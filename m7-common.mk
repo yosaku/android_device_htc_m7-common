@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     remount.qcom \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    extsdperm.sh
 
 # Post boot service
 PRODUCT_COPY_FILES += \
