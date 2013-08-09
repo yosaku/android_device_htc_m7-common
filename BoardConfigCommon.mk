@@ -100,5 +100,8 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 RECOVERY_FSTAB_VERSION := 2
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# Charge mode
+BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
+
 # inherit from the proprietary version
 -include vendor/htc/m7-common/BoardConfigVendor.mk
