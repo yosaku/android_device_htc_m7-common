@@ -118,7 +118,6 @@ PRODUCT_PACKAGES += \
 
 # Misc Packages
 PRODUCT_PACKAGES += \
-    DeviceSettings \
     Torch
 
 # Prepatch to fix BT/WiFi bus lockups
