@@ -11,7 +11,7 @@
 /dev/block/mmcblk0p34	/firmware/mdm	vfat	ro,fmask=0000,dmask=0000,shortname=lower		wait
 /dev/block/mmcblk0p16	/firmware/q6	vfat	ro,fmask=0000,dmask=0000,shortname=lower		wait
 
-/dev/block/mmcblk1p1	/storage/sdcard1	vfat	defaults	defaults
+/dev/block/mmcblk1p1	/storage/ext_sd	vfat	defaults	defaults
 
 # USB storage
-/devices/platform/msm_hsusb_host/usb  /storage/usbdisk0  auto  defaults  voldmanaged=sda:auto
+/devices/platform/msm_hsusb_host/usb  /storage/usbdisk  auto  defaults  voldmanaged=sda:auto
