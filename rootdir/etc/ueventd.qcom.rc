@@ -140,21 +140,12 @@
 /dev/btlock               0600  bluetooth    bluetooth
 
 # felica device file nodes
-/dev/felica            0666   9989   9989
-/dev/felica_pon        0666   9989   9989
-/dev/felica_cen        0666   9990   9990
-/dev/felica_rfs        0444   9989   9989
-/dev/felica_rws        0666   9989   9989
-/dev/felica_int        0444   9989   9989
-/dev/felica_int_poll   0400   9989   9989
-/dev/felica_uid        0222   9989   9989
+/dev/felica               0666  9989         9989
+/dev/felica_pon           0666  9989         9989
+/dev/felica_cen           0666  9990         9990
+/dev/felica_rfs           0444  9989         9989
+/dev/felica_rws           0666  9989         9989
+/dev/felica_int           0444  9989         9989
+/dev/felica_int_poll      0400  9989         9989
+/dev/felica_uid           0222  9989         9989
  
-# snfc device file nodes
-/dev/ttyHS1            0660   1027   1027
-/dev/snfc_pon          0660   1027   1027
-/dev/snfc_cen          0660   1027   1027
-/dev/snfc_rfs          0660   1027   1027
-/dev/snfc_intu         0660   1027   1027
-/dev/snfc_intu_polling 0660   1027   1027
-/dev/snfc_auto_polling 0660   1027   1027
-/dev/snfc_hsel         0660   1027   1027
