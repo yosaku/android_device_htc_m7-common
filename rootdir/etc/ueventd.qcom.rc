@@ -140,12 +140,11 @@
 /dev/btlock               0600  bluetooth    bluetooth
 
 # felica device file nodes
-/dev/felica               0666  9989         9989
-/dev/felica_pon           0666  9989         9989
-/dev/felica_cen           0666  9990         9990
-/dev/felica_rfs           0444  9989         9989
-/dev/felica_rws           0666  9989         9989
-/dev/felica_int           0444  9989         9989
-/dev/felica_int_poll      0400  9989         9989
-/dev/felica_uid           0222  9989         9989
- 
+/dev/felica               0666  felicaclient         felicaclient
+/dev/felica_pon           0666  felicaclient         felicaclient
+/dev/felica_cen           0666  felicalock           felicalock
+/dev/felica_rfs           0444  felicaclient         felicaclient
+/dev/felica_rws           0666  felicaclient         felicaclient
+/dev/felica_int           0444  felicaclient         felicaclient
+/dev/felica_int_poll      0400  felicaclient         felicaclient
+/dev/felica_uid           0222  felicaclient         felicaclient
