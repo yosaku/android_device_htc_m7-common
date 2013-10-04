@@ -124,7 +124,7 @@ PRODUCT_PACKAGES += \
     keystore.msm8960
 
 # NFC
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
     nfc_nci.msm8960 \
