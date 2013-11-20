@@ -124,13 +124,13 @@ PRODUCT_PACKAGES += \
     keystore.msm8960
 
 # NFC
-#PRODUCT_PACKAGES += \
-#    libnfc-nci \
-#    libnfc_nci_jni \
-#    nfc_nci.msm8960 \
-#    NfcNci \
-#    Tag \
-#    com.android.nfc_extras
+PRODUCT_PACKAGES += \
+    libnfc-nci \
+    libnfc_nci_jni \
+    nfc_nci.msm8960 \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
 
 # Misc Packages
 PRODUCT_PACKAGES += \
