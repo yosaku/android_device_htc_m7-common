@@ -27,13 +27,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.qcom.firmware_links.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    remount.qcom \
-    ueventd.qcom.rc \
-    extsdperm.sh
+    ueventd.qcom.rc
 
 # Post boot service
 PRODUCT_COPY_FILES += \
