@@ -349,12 +349,12 @@ service sdcard /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emul
     class late_start
 
 # external sd
-service fuse_ext_sd /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/ext_sd /storage/ext_sd
+service fuse_ext_sd /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/ext_sd /storage/ext_sd
     class late_start
     disabled
 
 # usb-otg storage
-service fuse_usbdisk /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw/usbdisk /storage/usbdisk
+service fuse_usbdisk /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/usbdisk /storage/usbdisk
     class late_start
     disabled
 
