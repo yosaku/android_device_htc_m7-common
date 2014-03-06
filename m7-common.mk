@@ -119,11 +119,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf
 
 # NFC
+#PRODUCT_PACKAGES += \
+#    libnfc-nci \
+#    libnfc_nci_jni \
+#    nfc_nci.msm8960 \
+#    NfcNci \
+#    Tag \
+#    com.android.nfc_extras
+
 PRODUCT_PACKAGES += \
-    libnfc-nci \
-    libnfc_nci_jni \
-    nfc_nci.msm8960 \
-    NfcNci \
     Tag \
     com.android.nfc_extras
 
