@@ -36,17 +36,17 @@
     </integer-array>
 
     <!-- The VoiceMail default value is displayed to my own number if it is true -->
-    <bool name="config_telephony_use_own_number_for_voicemail">true</bool>
+    <bool name="config_telephony_use_own_number_for_voicemail">false</bool>
 
     <!-- sms encoded as octet is decoded by utf8 decoder. if it is true -->
-    <bool name="config_sms_utf8_support">true</bool>
+    <bool name="config_sms_utf8_support">false</bool>
 
     <!-- If this value is true, duplicate Source/Destination port fields
          in WDP header of some carriers OMADM wap push are supported.
          ex: MSGTYPE-TotalSegments-CurrentSegment
              -SourcePortDestPort-SourcePortDestPort-OMADM PDU
          If false, not supported. -->
-    <bool name="config_duplicate_port_omadm_wappush">true</bool>
+    <bool name="config_duplicate_port_omadm_wappush">false</bool>
 
     <!-- If Voice Radio Technology is RIL_RADIO_TECHNOLOGY_LTE:14 this is the value
          that should be used instead. A value of RIL_RADIO_TECHNOLOGY_UNKNOWN:0 means

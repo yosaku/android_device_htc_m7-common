@@ -54,7 +54,7 @@ version 4 - added sms to mms text threshold.
     <string name="userAgent">HTL22</string>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://uaprof.vtext.com/pcd/adr6500/adr6500.xml</string>
+    <string name="uaProfUrl">http://www.htcmms.com.tw/Android/KDDI/HTL22/ua-profile.xml</string>
 
     <!-- Maximum number of recipients allowed per message. Use a value of -1
          to indicate no limit. -->
