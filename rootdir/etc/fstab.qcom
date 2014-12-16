@@ -16,4 +16,4 @@
 /devices/platform/msm_sdcc.4/mmc_host	auto	auto	defaults	voldmanaged=ext_sd:auto
 
 # USB storage
-/devices/platform/msm_hsusb_host/usb	auto	auto	defaults	voldmanaged=usbdisk:auto
+/devices/platform/msm_hsusb_host/usb*	auto	auto	defaults	voldmanaged=usbdisk:auto
