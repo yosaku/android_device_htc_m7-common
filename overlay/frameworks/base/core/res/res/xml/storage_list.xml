@@ -42,11 +42,12 @@
              android:mtpReserve="100" />
 
    <!-- external SD card -->
-    <storage android:mountPoint="/storage/ext_sd"
+    <storage
+        android:mountPoint="/storage/ext_sd"
              android:storageDescription="@string/storage_sd_card"
              android:primary="false"
              android:removable="true"
-             android:allowMassStorage="true" />
+             android:emulated="false"/>
 
     <!-- external usb storage -->
     <storage android:mountPoint="/storage/usbdisk"
