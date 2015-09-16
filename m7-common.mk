@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
+    init.qcom.power.rc \
     init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
